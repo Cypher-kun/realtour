@@ -1,17 +1,84 @@
 .icon {
     display: inline-block;
     vertical-align: top;
-    background: url(../images/sprite.png) no-repeat;
-}
-
-.icon_bitcoin {
-    width: 33px;
-    height: 33px;
-    background-position: 0 -72px;
 }
 
 .icon_house {
-    width: 13px;
+    width: 12px;
     height: 10px;
-    background-position: -33px -72px;
+    background: url(../images/icon_house.png);
 }
+
+.icon_letter {
+    width: 12px;
+    height: 10px;
+    background: url(../images/icon_letter.png);
+}
+
+.icon_list {
+    width: 12px;
+    height: 10px;
+    background: url(../images/icon_list.png);
+}
+
+.icon_clock {
+    width: 14px;
+    height: 13px;
+    background: url(../images/icon_clock.png);
+}
+
+.icon_books {
+    width: 23px;
+    height: 26px;
+    background: url(../images/icon_books.png);
+}
+
+.icon_camera {
+    width: 26px;
+    height: 22px;
+    background: url(../images/icon_camera.png);
+}
+
+.icon_camera_white {
+    width: 26px;
+    height: 22px;
+    background: url(../images/icon_camera_white.png);
+}
+
+.icon_geo {
+    width: 23px;
+    height: 33px;
+    background: url(../images/icon_geo.png);
+}
+
+.icon_vk {
+    width: 24px;
+    height: 25px;
+    background: url(../images/icon_vk.png);
+}
+
+.icon_fb {
+    width: 24px;
+    height: 25px;
+    background: url(../images/icon_fb.png);
+}
+
+.icon_twitter {
+    width: 24px;
+    height: 25px;
+    background: url(../images/icon_twitter.png);
+}
+
+.icon_phone {
+    width: 10px;
+    height: 25px;
+    background: url(../images/icon_phone.png);
+}
+
+
+.icon_search {
+    width: 18px;
+    height: 16px;
+    background: url(../images/icon_search.png);
+}
+
