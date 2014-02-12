@@ -1,0 +1,15 @@
+# TEAM
+
+    Anton Cypher Shchukin -- Frontend developing -- nuqneH.com
+    
+
+# THANKS
+
+    h5bp.com
+    really guys, tnx to you
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    BEM
