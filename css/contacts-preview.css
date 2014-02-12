@@ -1,0 +1,41 @@
+.contacts-preview {
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+}
+
+    .contacts-preview__phone-code {
+        color: #888;
+    }
+
+    .contacts-preview__phone {
+        font-size: 21px;
+        line-height: 23px;
+        color: #333;
+        margin-top: 2px;
+    }
+
+        .contacts-preview__phone__item {
+            display: inline;
+            margin-left: 4px;
+        }
+
+        .contacts-preview__phone__item:first-child{
+            margin-left: 0;
+        }
+
+        .contacts-preview__phone__item_small {
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+    .contacts-preview__title {
+        margin-top: 2px;
+    }
+
+    .contacts-preview__icon {
+        position: absolute;
+        right: 100%;
+        top: 17px;
+        margin-right: 10px;
+    }

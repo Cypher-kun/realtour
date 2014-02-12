@@ -1,0 +1,50 @@
+.work-time {
+    position: relative;
+}
+
+    .work-time__title {
+        background: #ae4124;
+        font-size: 11px;
+        line-height: 13px;
+        color: #fff;
+        width: 148px;
+        height: 17px;
+        padding-top: 2px;
+        padding-left: 25px;
+    }
+
+        .work-time__title__icon {
+            position: absolute;
+            top: 3px;
+            left: 6px;
+        }
+
+        .work-time__title__text {
+        }
+
+    .work-time__week {
+        font-size: 10px;
+        line-height: 12px;
+        color: #000;
+        margin-top: 2px;
+    }
+
+        .work-time__week__item {
+            background: #fff;
+            width: 23px;
+            height: 19px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            line-height: 19px;
+            margin-left: 2px;
+        }
+
+        .work-time__week__item:first-child {
+            margin-left: 0;
+        }
+
+        .work-time__week__item_red {
+            background: #ae4124;
+            color: #fff;
+        }
