@@ -10,6 +10,9 @@
 @import url(contacts-preview.css);
 @import url(work-time.css);
 @import url(program.css);
+@import url(offer.css);
+@import url(real-offer.css);
+@import url(separated-list.css);
 /*@import url(field.css);*/
 /*@import url(title.css);*/
 /*@import url(table.css);*/
@@ -22,7 +25,7 @@
 @import url(logo.css);
 /*@import url(nav.css);*/
 /*@import url(copyright.css);*/
-/*@import url(breadcrumbs.css);*/
+@import url(breadcrumbs.css);
 /*@import url(pagination.css);*/
 /*@import url(sidebar.css);*/
 /*@import url(content.css);*/

@@ -1,0 +1,9 @@
+.separated-list {
+
+}
+
+    .separated-list__item {
+        border-bottom: 1px solid #e8e5dd;
+        padding-top: 13px;
+        padding-bottom: 22px;
+    }

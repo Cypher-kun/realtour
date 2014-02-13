@@ -100,3 +100,14 @@
     background: url(../images/icon_darkwave.png);
 }
 
+.icon_screen {
+    width: 14px;
+    height: 13px;
+    background: url(../images/icon_screen.png);
+}
+
+.icon_flag {
+    width: 16px;
+    height: 11px;
+    background: url(../images/icon_flag.png);
+}

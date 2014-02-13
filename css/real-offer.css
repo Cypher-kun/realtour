@@ -1,0 +1,29 @@
+.real-offer {
+
+}
+
+    .real-offer__title {
+
+    }
+
+        .real-offer__title__icon {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        .real-offer__title__text {
+            font-size: 12px;
+            line-height: 14px;
+            color: #ae4124;
+            text-transform: uppercase;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    .real-offer__description {
+        font-size: 11px;
+        line-height: 13px;
+        color: #878580;
+        margin-top: 1px;
+    }
