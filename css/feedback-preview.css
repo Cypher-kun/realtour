@@ -1,0 +1,58 @@
+.feedback-preview {
+    width: 358px;
+}
+
+    .feedback-preview__image {
+        display: inline-block;
+        vertical-align: top;
+        width: 132px;
+    }
+
+        .feedback-preview__image__file {
+            width: 132px;
+            height: 132px;
+            border-radius: 50%;
+        }
+
+    .feedback-preview__description {
+        display: inline-block;
+        vertical-align: top;
+        width: 205px;
+        margin-left: 19px;
+    }
+
+        .feedback-preview__description__title {
+            font-size: 14px;
+            line-height: 16px;
+            color: #000;
+        }
+
+        .feedback-preview__description__text {
+            font-size: 12px;
+            line-height: 14px;
+            color: #666;
+            font-style: italic;
+            margin-top: 11px;
+            height: 56px;
+            overflow: hidden;
+        }
+
+        .feedback-preview__description__footer {
+            color: #999;
+            margin-top: 21px;
+        }
+
+            .feedback-preview__description__footer__name {
+                font-style: italic;
+                display: inline;
+            }
+
+            .feedback-preview__description__footer__date {
+                font-size: 11px;
+                line-height: 13px;
+                display: inline;
+            }
+
+        .feedback-preview__description__link {
+
+        }

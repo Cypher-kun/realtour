@@ -7,7 +7,7 @@
     }
 
         .real-offer__title__icon {
-            display: inline-block;
+            display: inline;
             vertical-align: middle;
             margin-right: 8px;
         }
@@ -17,7 +17,7 @@
             line-height: 14px;
             color: #ae4124;
             text-transform: uppercase;
-            display: inline-block;
+            display: inline;
             vertical-align: middle;
         }
 

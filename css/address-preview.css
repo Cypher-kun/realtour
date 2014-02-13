@@ -1,0 +1,30 @@
+.address-preview {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    position: relative;
+
+}
+
+    .address-preview__icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .address-preview__description {
+        margin-left: 30px;
+        padding-top: 2px;
+    }
+
+        .address-preview__description__title {
+            color: #d2160a;
+        }
+
+        .address-preview__description__text {
+            margin-top: 6px;
+        }
+
+        .address-preview__description__link {
+            margin-top: 5px;
+        }
