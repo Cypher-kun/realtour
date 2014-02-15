@@ -7,7 +7,7 @@
     }
 
         .real-offer__title__icon {
-            display: inline;
+            display: inline-block;
             vertical-align: middle;
             margin-right: 8px;
         }
