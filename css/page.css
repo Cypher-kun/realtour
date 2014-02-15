@@ -5,15 +5,36 @@
         background: url(../images/header_background.png) no-repeat center top;
     }
 
-    .page__nav {
-        margin: 20px 0 0;
+    .page__panel {
+        margin: 0 auto;
+        max-width: 1166px;
+        background: #eeeadc;
+        background: -webkit-linear-gradient(#f0ede2, #ebe6d7);
+        background:         linear-gradient(#f0ede2, #ebe6d7);
+        border-radius: 10px;
     }
 
     .page__body {
-        margin: 20px 0 0;
+        margin: 0 auto;
+        max-width: 1166px;
+        background: #fff;
+        z-index: 1000;
+        position: relative;
     }
+        .page__body_bottom-wave {
+            margin-top: -3px;
+            position: relative;
+            top: 3px;
+        }
+
+        .page__body_top-wave {
+            margin-bottom: -3px;
+            position: relative;
+            bottom: 3px;
+        }
 
     .page__footer {
-        margin: 20px 0 0;
+        margin: -83px 0 0;
+        padding: 123px 0 0;
         background: url(../images/footer_background.png) repeat-x center bottom;
     }

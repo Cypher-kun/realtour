@@ -2,8 +2,30 @@
     height: 307px;
     position: relative;
 }
-    .header__logo {
+    .header__left {
         position: absolute;
         left: 10px;
         top: 10px;
     }
+        .header__left__logo {
+
+        }
+
+        .header__left__site-nav {
+            position: absolute;
+            right: 30px;
+            top: 0;
+        }
+
+    .header__right {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+        .header__right__contacts {
+
+        }
+
+        .header__right__work-time {
+
+        }

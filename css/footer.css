@@ -1,9 +1,37 @@
 .footer {
-    height: 309px;
+    height: 186px;
     position: relative;
 }
-    .footer__copyright {
+    .footer__left {
         position: absolute;
         left: 0;
-        top: 10px;
+        top: 0;
+        width: 200px;
     }
+        .footer__left__copyright {
+
+        }
+
+        .footer__left__counter {
+
+        }
+
+    .footer__center {
+        position: absolute;
+        left: 233px;
+        top: 0;
+        width: 500px;
+    }
+
+    .footer__right {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+        .footer__right__social {
+
+        }
+
+        .footer__right__developer {
+
+        }

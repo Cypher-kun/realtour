@@ -1,0 +1,17 @@
+.panel {
+    height: 57px;
+    position: relative;
+}
+    .panel__nav {
+        position: absolute;
+        left: -9px;
+        top: 15px;
+        width: 728px;
+    }
+
+    .panel__search {
+        position: absolute;
+        right: 0;
+        top: 11px;
+        width: 265px;
+    }
