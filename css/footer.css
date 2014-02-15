@@ -5,7 +5,7 @@
     .footer__left {
         position: absolute;
         left: 0;
-        top: 0;
+        top: 1px;
         width: 200px;
     }
         .footer__left__copyright {
@@ -13,25 +13,26 @@
         }
 
         .footer__left__counter {
-
+            margin-top: 6px;
+            margin-left: 21px;
         }
 
     .footer__center {
         position: absolute;
-        left: 233px;
-        top: 0;
+        left: 235px;
+        top: -1px;
         width: 500px;
     }
 
     .footer__right {
         position: absolute;
         right: 0;
-        top: 0;
+        top: -5px;
     }
         .footer__right__social {
 
         }
 
         .footer__right__developer {
-
+            margin-top: 14px;
         }
