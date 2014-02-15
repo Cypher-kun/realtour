@@ -46,7 +46,8 @@ a {
 }
 
 thead,
-tbody {
+tbody,
+img {
     vertical-align: inherit;
 }
 

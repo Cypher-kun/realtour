@@ -2,7 +2,7 @@
 
 }
     .page__header {
-
+        background: url(../images/header_background.png) no-repeat center top;
     }
 
     .page__nav {
@@ -15,4 +15,5 @@
 
     .page__footer {
         margin: 20px 0 0;
+        background: url(../images/footer_background.png) repeat-x center bottom;
     }

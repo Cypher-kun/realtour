@@ -17,6 +17,7 @@
 @import url(address-preview.css);
 @import url(feedback-preview.css);
 @import url(social.css);
+@import url(ribbon.css);
 /*@import url(field.css);*/
 /*@import url(title.css);*/
 /*@import url(table.css);*/
@@ -33,8 +34,8 @@
 /*@import url(pagination.css);*/
 /*@import url(sidebar.css);*/
 /*@import url(content.css);*/
-/*@import url(header.css);*/
-/*@import url(footer.css);*/
+@import url(header.css);
+@import url(footer.css);
 @import url(body.css);
 @import url(region.css);
 @import url(page.css);
