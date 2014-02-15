@@ -1,0 +1,13 @@
+.site-menu {
+    white-space: nowrap;
+}
+
+    .site-menu__item {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 11px;
+    }
+
+    .site-menu__item:first-child {
+        margin-left: 0;
+    }

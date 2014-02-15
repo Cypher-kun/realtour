@@ -4,8 +4,8 @@
 }
     .header__left {
         position: absolute;
-        left: 10px;
-        top: 10px;
+        left: 0;
+        top: 31px;
     }
         .header__left__logo {
 
@@ -13,19 +13,19 @@
 
         .header__left__site-nav {
             position: absolute;
-            right: 30px;
-            top: 0;
+            left: 219px;
+            top: 51px;
         }
 
     .header__right {
         position: absolute;
-        right: 10px;
-        top: 10px;
+        right: 28px;
+        top: 86px;
     }
         .header__right__contacts {
 
         }
 
         .header__right__work-time {
-
+            margin-top: 6px;
         }
