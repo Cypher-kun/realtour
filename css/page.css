@@ -5,7 +5,7 @@
         background: url(../images/header_background.png) no-repeat center top;
     }
 
-    .page__nav {
+    .page__panel {
         margin: 0 auto;
         max-width: 1166px;
         background: #eeeadc;
@@ -22,18 +22,19 @@
         position: relative;
     }
         .page__body_bottom-wave {
-            margin-top: -4px;
+            margin-top: -3px;
             position: relative;
-            top: 4px;
+            top: 3px;
         }
 
         .page__body_top-wave {
-            margin-bottom: -4px;
+            margin-bottom: -3px;
             position: relative;
-            bottom: 4px;
+            bottom: 3px;
         }
 
     .page__footer {
         margin: -83px 0 0;
+        padding: 123px 0 0;
         background: url(../images/footer_background.png) repeat-x center bottom;
     }
