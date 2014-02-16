@@ -1,0 +1,29 @@
+.photo {
+
+}
+
+    .photo__gallery {
+        margin-top: 6px;
+        margin-left: 5px;
+        margin-right: 5px;
+        position: relative;
+    }
+
+        .photo__gallery__fader {
+            height: 13px;
+            width: 100%;
+            background: linear-gradient(transparent, #fff);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+    .photo__footer {
+        text-align: center;
+        margin-top: 42px;
+    }
+
+        .photo__footer__button {
+            display: inline-block;
+            vertical-align: top;
+        }
