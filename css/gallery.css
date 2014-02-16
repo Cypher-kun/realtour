@@ -1,0 +1,25 @@
+.gallery {
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+    .gallery__item {
+        width: 98px;
+        height: 98px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+
+        .gallery__item__link {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+            .gallery__item__link__image {
+                width: 100%;
+                height: 100%;
+                background: purple;
+            }

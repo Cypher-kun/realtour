@@ -26,6 +26,39 @@
     background: #5081c0;
 }
 
+.button_lightblue {
+    background: #33a9c6;
+}
+
 .button_gray {
     background: #677e89;
 }
+
+.button_big {
+    height: 38px;
+    line-height: 32px;
+    padding-top: 6px;
+}
+
+    .button__icon {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 10px;
+        position: relative;
+        top: -3px;
+    }
+
+    .button__icon:first-child {
+        margin-left: 0;
+    }
+
+    .button__icon:last-child {
+        margin-right: 0;
+    }
+
+    .button__text {
+        display: inline;
+        vertical-align: baseline;
+        font-size: 18px;
+        line-height: 20px   ;
+    }

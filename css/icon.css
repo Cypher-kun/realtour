@@ -111,3 +111,9 @@
     height: 11px;
     background: url(../images/icon_flag.png);
 }
+
+.icon_arrow {
+    width: 6px;
+    height: 20px;
+    background: url(../images/icon_arrow.png);
+}

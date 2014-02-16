@@ -3,6 +3,7 @@
     font-size: 18px;
     line-height: 20px;
     color: #000;
+    position: relative;
 }
 
     .title__text {
@@ -16,4 +17,14 @@
         line-height: 14px;
         position: relative;
         top: -1px;
+    }
+
+    .title__icon {
+        position: absolute;
+        top: -1px;
+        left: 0;
+    }
+
+    .title__icon + .title__text {
+        padding-left: 35px;
     }
