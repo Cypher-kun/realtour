@@ -14,3 +14,37 @@
         vertical-align: top;
         width: 716px;
     }
+
+    .body__footer {
+        margin-top: 27px;
+    }
+
+        .body__footer__wave {
+
+        }
+
+        .body__footer__content {
+            margin-top: 32px;
+        }
+
+            .body__footer__content__column {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+                .body__footer__content__column__title {
+
+                }
+
+                .body__footer__content__column__block {
+                    margin-top: 25px;
+                }
+
+            .body__footer__content__column_left {
+                width: 436px;
+            }
+
+            .body__footer__content__column_right {
+                width: 533px;
+                margin-left: 31px;
+            }
