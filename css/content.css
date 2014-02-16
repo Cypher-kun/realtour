@@ -5,6 +5,14 @@
 
     }
 
+        .content__header__breadcrumbs {
+
+        }
+
+        .content__header__title {
+            margin-top: 14px;
+        }
+
     .content__body {
         margin: 20px 0 0;
     }

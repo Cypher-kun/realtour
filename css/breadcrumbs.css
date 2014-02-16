@@ -1,5 +1,4 @@
 .breadcrumbs {
-    margin: 0 -4px;
     cursor: default;
     font-size: 11px;
     line-height: 13px;
@@ -29,4 +28,8 @@
 
         .breadcrumbs__item__link:hover .breadcrumbs__item__link__text {
             text-decoration: none;
+        }
+
+        .breadcrumbs__item:first-child {
+            margin-left: 0;
         }

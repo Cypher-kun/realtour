@@ -1,16 +1,19 @@
 .title {
     display: block;
-    text-decoration: none;
     font-size: 18px;
     line-height: 20px;
+    color: #000;
 }
 
-.title_large {
-    font-size: 24px;
-    line-height: 24px;
-}
+    .title__text {
+        display: inline;
+    }
 
-.title_small {
-    font-size: 16px;
-    line-height: 19px;
-}
+    .title__link {
+        display: inline;
+        margin-left: 15px;
+        font-size: 12px;
+        line-height: 14px;
+        position: relative;
+        top: -1px;
+    }

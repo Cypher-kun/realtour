@@ -1,15 +1,16 @@
 .body {
-    padding: 0 0 43px;
+    padding: 14px 0 43px;
 }
     .body__sidebar {
         display: inline-block;
         vertical-align: top;
-        width: 200px;
-        margin: 0 20px 0 0;
+        width: 260px;
+        margin: 0 24px 0 0;
+        padding: 26px 0 0;
     }
 
     .body__content {
         display: inline-block;
         vertical-align: top;
-        width: 740px;
+        width: 716px;
     }

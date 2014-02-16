@@ -1,4 +1,16 @@
 .ribbon {
-    height: 44px;
-    background: purple;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
+    .ribbon__item {
+        width: 44px;
+        height: 44px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        .ribbon__item__image {
+            width: 100%;
+            height: 100%;
+        }
