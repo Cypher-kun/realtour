@@ -6,3 +6,18 @@
 .link:hover {
     text-decoration: none;
 }
+
+    .link__icon {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .link__text {
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: underline;
+    }
+
+.link_withicon {
+    text-decoration: none;
+}

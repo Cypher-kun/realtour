@@ -117,3 +117,15 @@
     height: 20px;
     background: url(../images/icon_arrow.png);
 }
+
+.icon_geo_blue {
+    width: 14px;
+    height: 20px;
+    background: url(../images/icon_geo_blue.png);
+}
+
+.icon_letter_blue {
+    width: 16px;
+    height: 12px;
+    background: url(../images/icon_letter_blue.png);
+}

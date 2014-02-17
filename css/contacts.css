@@ -1,0 +1,35 @@
+.contacts {
+
+}
+
+    .contacts__text {
+
+    }
+
+    .contacts__map {
+
+    }
+
+        .contacts__map__item {
+            width: 344px;
+            margin-left: 26px;
+            margin-top: 37px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .contacts__map__item:first-child {
+            margin-left: 0;
+        }
+
+            .contacts__map__item__text {
+
+            }
+
+            .contacts__map__item__widget {
+                margin-top: 18px;
+            }
+
+    .contacts__form {
+
+    }
