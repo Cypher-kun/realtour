@@ -1,0 +1,11 @@
+.tile {
+    margin-left: -22px;
+    margin-top: -11px;
+}
+
+    .tile__item {
+        margin-left: 22px;
+        margin-top: 11px;
+        display: inline-block;
+        vertical-align: top;
+    }

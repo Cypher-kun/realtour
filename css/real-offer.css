@@ -10,6 +10,7 @@
             display: inline-block;
             vertical-align: middle;
             margin-right: 8px;
+            margin-top: -2px;
         }
 
         .real-offer__title__text {
@@ -25,5 +26,5 @@
         font-size: 11px;
         line-height: 13px;
         color: #878580;
-        margin-top: 1px;
+        margin-top: 2px;
     }
