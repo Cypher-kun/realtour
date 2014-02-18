@@ -15,6 +15,15 @@
         width: 716px;
     }
 
+    .body__sidebar_small {
+        width: 175px;
+        margin-right: 75px;
+    }
+
+    .body__sidebar_small + .body__content {
+        width: 750px;
+    }
+
     .body__footer {
         margin-top: 27px;
     }

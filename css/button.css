@@ -51,6 +51,10 @@
     background: #5081c0;
 }
 
+.button_dark-blue {
+    background: #3d669a;
+}
+
 .button_lightblue {
     background: #33a9c6;
 }
@@ -64,4 +68,15 @@
     height: 38px;
     line-height: 38px;
     font-size: 18px;
+}
+
+
+.button_smaller {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 11px;
+}
+
+.button_left-angle {
+    border-radius: 10px 0 0 0;
 }

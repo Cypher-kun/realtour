@@ -20,3 +20,15 @@
     .content__body:first-child {
         margin-top: 0;
     }
+
+    .content__gallery {
+        margin: 28px 0 0;
+    }
+
+        .content__gallery__title {
+
+        }
+
+        .content__gallery__body {
+            margin: 22px 0 0;
+        }

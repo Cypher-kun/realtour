@@ -16,3 +16,17 @@
         .sidebar__item__body {
             margin-top: 29px;
         }
+
+    .sidebar__item_fixed {
+
+    }
+
+        .sidebar__item__detachable {
+            width: 175px;
+            padding: 20px 0;
+        }
+
+        .sidebar__item__detachable_sticked {
+            position: fixed;
+            top: 0;
+        }

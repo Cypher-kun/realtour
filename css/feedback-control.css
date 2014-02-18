@@ -1,0 +1,26 @@
+.feedback-control {
+
+}
+
+    .feedback-control__like {
+
+    }
+
+    .feedback-control__nav {
+        margin: 19px 0 0;
+    }
+        .feedback-control__nav__item {
+            display: inline-block;
+            vertical-align: top;
+            width: 86px;
+            margin: 0 0 0 3px;
+        }
+            .feedback-control__nav__item:first-child {
+                margin-left: 0;
+            }
+
+
+    .feedback-control__details {
+        text-align: center;
+        margin: 10px 0 0;
+    }
