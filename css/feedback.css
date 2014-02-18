@@ -1,12 +1,6 @@
 .feedback {
-    margin-left: -62px;
-    margin-top: -32px;
-}
 
-    .feedback__item {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 32px;
-        margin-left: 62px;
-        margin-bottom: 32px;
+}
+    .feedback__summary {
+        padding: 0 51px;
     }

@@ -29,17 +29,15 @@
 @import url(tile.css);
 @import url(contacts.css);
 @import url(address.css);
-<<<<<<< HEAD
+@import url(feedback-list.css);
 @import url(feedback.css);
-/*@import url(field.css);*/
-=======
+@import url(field.css);
 @import url(tours-preview.css);
 @import url(field.css);
 @import url(capcha.css);
 @import url(required-text.css);
 @import url(error-output.css);
 @import url(form.css);
->>>>>>> 400f0f11ddecc0097bdee12cabb3550ae750a6f6
 @import url(title.css);
 /*@import url(table.css);*/
 /*@import url(video.css);*/
