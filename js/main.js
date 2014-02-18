@@ -16,3 +16,7 @@ $(document).on('ready', function(){
         $(this).find('.work-time__week__item__time').fadeToggle();
     });
 });
+
+$(document).on('ready', function(){
+    $('.gallery__item__link').fancybox();
+});
