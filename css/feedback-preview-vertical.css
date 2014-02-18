@@ -1,0 +1,87 @@
+.feedback-preview-vertical {
+    width: 175px;
+    background: #f9f7f2;
+    margin-top: 87px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+    .feedback-preview-vertical__image {
+        width: 132px;
+        position: relative;
+        top: -87px;
+        margin-bottom: -87px;
+    }
+
+        .feedback-preview-vertical__image__file {
+            width: 132px;
+            height: 132px;
+            border-radius: 50%;
+            border: 21px solid #fff;
+        }
+
+    .feedback-preview-vertical__description {
+        width: 152px;
+        margin-left: 11px;
+        margin-top: 5px;
+    }
+
+        .feedback-preview-vertical__description__title {
+            font-size: 14px;
+            line-height: 16px;
+            color: #000;
+        }
+
+        .feedback-preview-vertical__description__text {
+            font-size: 12px;
+            line-height: 14px;
+            color: #666;
+            font-style: italic;
+            margin-top: 15px;
+            height: 70px;
+            overflow: hidden;
+        }
+
+        .feedback-preview-vertical__description__footer {
+            color: #999;
+            margin-top: 14px;
+        }
+
+            .feedback-preview-vertical__description__footer__name {
+                font-style: italic;
+                display: inline;
+            }
+
+            .feedback-preview-vertical__description__footer__date {
+                font-size: 11px;
+                line-height: 13px;
+                display: inline;
+            }
+
+        .feedback-preview-vertical__description__link {
+
+        }
+
+    .feedback-preview-vertical__wave-left {
+        width: 5px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: -8px;
+    }
+
+    .feedback-preview-vertical__wave-bottom {
+        width: 100%;
+        height: 7px;
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+    }
+
+    .feedback-preview-vertical__wave-right {
+        width: 7px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: -3px;
+    }

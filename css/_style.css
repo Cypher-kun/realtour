@@ -16,6 +16,7 @@
 @import url(news-preview.css);
 @import url(address-preview.css);
 @import url(feedback-preview.css);
+@import url(feedback-preview-vertical.css);
 @import url(social.css);
 @import url(ribbon.css);
 @import url(site-menu.css);
@@ -27,6 +28,7 @@
 @import url(tile.css);
 @import url(contacts.css);
 @import url(address.css);
+@import url(feedback.css);
 /*@import url(field.css);*/
 @import url(title.css);
 /*@import url(table.css);*/
