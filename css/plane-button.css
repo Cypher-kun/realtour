@@ -1,0 +1,33 @@
+.plane-button {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    height:      29px;
+    line-height: 27px;
+    padding: 0 12px;
+    background: #c50000;
+    font-size: 12px;
+    color: #fff;
+}
+
+.plane-button:hover,
+.plane-button:active,
+.plane-button:focus {
+    outline: none;
+    background: #890606;
+}
+
+
+.plane-button_gray {
+    background: #e5e5e5;
+    color: #333;
+}
+
+.plane-button_gray:hover,
+.plane-button_gray:active,
+.plane-button_gray:focus {
+    background: #ccc;
+}

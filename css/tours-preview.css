@@ -1,0 +1,80 @@
+.tours-preview {
+    width: 760px;
+}
+    .tours-preview__left {
+        display: inline-block;
+        vertical-align: top;
+        width: 404px;
+        margin: 16px 42px 0 0;
+    }
+        .tours-preview__left__top {
+
+        }
+            .tours-preview__left__top__first-nav {
+                display: inline-block;
+                vertical-align: top;
+                border-right: 1px solid #c2beaf;
+                padding: 0 34px 0 0;
+                width: 168px;
+            }
+
+            .tours-preview__left__top__second-nav {
+                display: inline-block;
+                vertical-align: top;
+                border-left: 1px solid #c2beaf;
+                margin: 0 0 0 -1px;
+                padding: 0 0 0 34px;
+                width: 167px;
+            }
+
+        .tours-preview__left__bottom {
+            margin: 53px 0 0;
+            padding: 0 0 0 10px;
+        }
+            .tours-preview__left__bottom__title {
+                font-size: 18px;
+                line-height: 20px;
+                color: #333;
+            }
+
+            .tours-preview__left__bottom__body {
+                margin: 16px 0 0 0;
+            }
+                .tours-preview__left__bottom__body__text {
+                    display: inline-block;
+                    vertical-align: top;
+                    margin: 5px 0 0;
+                    width: 209px;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+
+                .tours-preview__left__bottom__body__button {
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 180px;
+                }
+
+    .tours-preview__right {
+        display: inline-block;
+        vertical-align: top;
+        width: 314px;
+    }
+        .tours-preview__right__top {
+
+        }
+
+            .tours-preview__right__top__title {
+
+            }
+
+            .tours-preview__right__top__body {
+                margin: 17px 0 0;
+            }
+                .tours-preview__right__top__body__item {
+                    margin: 11px 0 0;
+                }
+
+                .tours-preview__right__top__body__item:first-child {
+                    margin-top: 0;
+                }

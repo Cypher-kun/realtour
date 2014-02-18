@@ -7,13 +7,12 @@
     }
 
     .contacts__map {
+        margin-top: 40px;
 
     }
-
         .contacts__map__item {
             width: 344px;
             margin-left: 26px;
-            margin-top: 37px;
             display: inline-block;
             vertical-align: top;
         }
@@ -28,8 +27,20 @@
 
             .contacts__map__item__widget {
                 margin-top: 18px;
+                border: 1px solid #ded5bc;
             }
 
     .contacts__form {
-
+        margin: 28px 0 0;
     }
+        .contacts__form__title {
+
+        }
+
+        .contacts__form__errors {
+            margin: 14px 0 0;
+        }
+
+        .contacts__form__widget {
+            margin: 17px 0 0;
+        }
