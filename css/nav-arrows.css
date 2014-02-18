@@ -1,0 +1,39 @@
+.nav-arrows {
+    font-size: 12px;
+    line-height: 15px;
+    color: #333;
+}
+    .nav-arrows__item {
+        margin: 7px 0 0;
+        padding: 0 0 0 11px;
+    }
+
+        .nav-arrows__item__link {
+            display: inline-block;
+            vertical-align: top;
+            text-decoration: underline;
+            position: relative;
+        }
+            .nav-arrows__item__link__triangle {
+                border: 4px solid transparent;
+                border-left: 4px solid #8b8570;
+                position: absolute;
+                left: -13px;
+                top: 4px;
+            }
+
+        .nav-arrows__item__link_important {
+            background: #de2424;
+            color: #fff;
+            padding: 3px 4px;
+            margin: 0 0 -6px;
+        }
+
+        .nav-arrows__item__link:hover {
+            text-decoration: none;
+        }
+
+    .nav-arrows__item:first-child {
+        margin-top: 0;
+    }
+

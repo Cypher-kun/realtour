@@ -27,6 +27,7 @@
 @import url(tile.css);
 @import url(contacts.css);
 @import url(address.css);
+@import url(tours-preview.css);
 /*@import url(field.css);*/
 @import url(title.css);
 /*@import url(table.css);*/
@@ -37,7 +38,8 @@
 /*@import url(clearfix.css);*/
 /*@import url(ancients.css);*/
 @import url(logo.css);
-/*@import url(nav.css);*/
+@import url(nav.css);
+@import url(nav-arrows.css);
 @import url(copyright.css);
 @import url(breadcrumbs.css);
 /*@import url(pagination.css);*/

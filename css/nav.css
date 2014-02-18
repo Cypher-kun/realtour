@@ -1,9 +1,73 @@
 .nav {
-
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
 }
     .nav__item {
-
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 0 14px;
+        position: relative;
     }
         .nav__item__link {
-
+            display: block;
+            padding: 5px 10px;
+            border-radius: 11px;
+            text-decoration: underline;
         }
+            .nav__item__link__triangle {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 4px 0 0 4px;
+                border: 5px solid transparent;
+                border-top-color: inherit;
+            }
+
+        .nav__item__link_current,
+        .nav__item__link:hover {
+            background: #fff;
+            text-decoration: none;
+            color: #8b8570;
+        }
+
+        .nav__item__dropdown {
+            padding: 3px 0 0;
+            position: absolute;
+            z-index: 1500;
+            left: 0;
+            top: 100%;
+            display: none;
+        }
+
+            .nav__item__dropdown__body {
+                padding: 22px 18px 24px 17px;
+                border: 1px solid #c2beaf;
+                border-radius: 11px;
+                background: #f0ede1;
+                background: rgba(240,237,225,.95);
+            }
+
+            .nav__item__dropdown__body_service {
+                padding: 38px 18px 24px 17px;
+                width: 347px;
+                min-height: 175px;
+                background: #f1eee3 url(../images/nav-tour.png) no-repeat right bottom;
+            }
+
+        .nav__item:hover .nav__item__dropdown {
+            display: block;
+        }
+
+    .nav__item_dropable + .nav__item {
+        margin-left: 3px;
+    }
+
+    .nav__item:hover .nav__item__link__triangle {
+        border-top-color: transparent;
+        border-bottom-color: inherit;
+        margin-top: -5px;
+    }
+
+    .nav__item:first-child {
+        margin-left: 0;
+    }
