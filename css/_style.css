@@ -7,6 +7,7 @@
 /*@import url(time.css);*/
 @import url(icon.css);
 @import url(button.css);
+@import url(plane-button.css);
 @import url(contacts-preview.css);
 @import url(work-time.css);
 @import url(program.css);
@@ -28,7 +29,11 @@
 @import url(contacts.css);
 @import url(address.css);
 @import url(tours-preview.css);
-/*@import url(field.css);*/
+@import url(field.css);
+@import url(capcha.css);
+@import url(required-text.css);
+@import url(error-output.css);
+@import url(form.css);
 @import url(title.css);
 /*@import url(table.css);*/
 /*@import url(video.css);*/

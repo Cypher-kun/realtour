@@ -10,12 +10,18 @@
     .link__icon {
         display: inline-block;
         vertical-align: top;
+        position: relative;
+        top: 2px;
     }
 
     .link__text {
         display: inline-block;
         vertical-align: top;
         text-decoration: underline;
+    }
+
+    .link_withicon:hover .link__text {
+        text-decoration: none;
     }
 
 .link_withicon {
