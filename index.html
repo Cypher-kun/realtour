@@ -5,9 +5,6 @@
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width">
-        <!-- Uncomment in case of responsive design and delete tag above
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        -->
         <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
         <link rel="stylesheet" href="css/_style.css">
@@ -270,13 +267,13 @@
                                         <div class="work-time__title__text">Режим работы</div>
                                     </div>
                                     <ul class="work-time__week">
-                                        <li class="work-time__week__item">ПН</li><!--
-                                         --><li class="work-time__week__item">ВТ</li><!--
-                                         --><li class="work-time__week__item">СР</li><!--
-                                         --><li class="work-time__week__item">ЧТ</li><!--
-                                         --><li class="work-time__week__item">ПТ</li><!--
-                                         --><li class="work-time__week__item work-time__week__item_red">СБ</li><!--
-                                         --><li class="work-time__week__item work-time__week__item_red">ВС</li>
+                                        <li class="work-time__week__item">ПН<div class="work-time__week__item__time">с 10:00 до 19:00<i class="work-time__week__item__time__back-triangle"></i><i class="work-time__week__item__time__triangle"></i></div></li><!--
+                                     --><li class="work-time__week__item">ВТ<div class="work-time__week__item__time">с 10:00 до 19:00<i class="work-time__week__item__time__back-triangle"></i><i class="work-time__week__item__time__triangle"></i></div></li><!--
+                                     --><li class="work-time__week__item">СР<div class="work-time__week__item__time">с 10:00 до 19:00<i class="work-time__week__item__time__back-triangle"></i><i class="work-time__week__item__time__triangle"></i></div></li><!--
+                                     --><li class="work-time__week__item">ЧТ<div class="work-time__week__item__time">с 10:00 до 19:00<i class="work-time__week__item__time__back-triangle"></i><i class="work-time__week__item__time__triangle"></i></div></li><!--
+                                     --><li class="work-time__week__item">ПТ<div class="work-time__week__item__time">с 10:00 до 19:00<i class="work-time__week__item__time__back-triangle"></i><i class="work-time__week__item__time__triangle"></i></div></li><!--
+                                     --><li class="work-time__week__item work-time__week__item_red">СБ</li><!--
+                                     --><li class="work-time__week__item work-time__week__item_red">ВС</li>
                                     </ul>
                                 </div>
                             </div>
@@ -294,13 +291,159 @@
 
                     <div class="panel">
                         <div class="panel__nav">
-                            TODO .nav
+                            <ul class="nav">
+                                <li class="nav__item">
+                                    <a class="nav__item__link nav__item__link_current" href="#">Главная</a>
+                                </li><!--
+                             --><li class="nav__item">
+                                    <a class="nav__item__link" href="#">О компании</a>
+                                </li><!--
+                             --><li class="nav__item nav__item_dropable">
+                                    <a class="nav__item__link" href="#">Туры<i class="nav__item__link__triangle"></i></a>
+                                    <div class="nav__item__dropdown">
+                                        <div class="nav__item__dropdown__body">
+                                            <div class="tours-preview">
+                                                <div class="tours-preview__left">
+                                                    <div class="tours-preview__left__top">
+                                                        <div class="tours-preview__left__top__first-nav">
+                                                            <ul class="nav-arrows">
+                                                                <li class="nav-arrows__item">
+                                                                    <a class="nav-arrows__item__link" href="#">Горящие туры<i class="nav-arrows__item__link__triangle"></i></a>
+                                                                </li>
+                                                                <li class="nav-arrows__item">
+                                                                    <a class="nav-arrows__item__link" href="#">Пляжные туры<i class="nav-arrows__item__link__triangle"></i></a>
+                                                                </li>
+                                                                <li class="nav-arrows__item">
+                                                                    <a class="nav-arrows__item__link" href="#">Экскурсионные туры<i class="nav-arrows__item__link__triangle"></i></a>
+                                                                </li>
+                                                                <li class="nav-arrows__item">
+                                                                    <a class="nav-arrows__item__link" href="#">Горнолыжные туры<i class="nav-arrows__item__link__triangle"></i></a>
+                                                                </li>
+                                                                <li class="nav-arrows__item">
+                                                                    <a class="nav-arrows__item__link nav-arrows__item__link_important" href="#">VIP<i class="nav-arrows__item__link__triangle"></i></a>
+                                                                </li>
+                                                                <li class="nav-arrows__item">
+                                                                    <a class="nav-arrows__item__link" href="#">Индивидуальные туры<i class="nav-arrows__item__link__triangle"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div><!--
+                                                         --><div class="tours-preview__left__top__second-nav">
+                                                        <ul class="nav-arrows">
+                                                            <li class="nav-arrows__item">
+                                                                <a class="nav-arrows__item__link" href="#">Круизы<i class="nav-arrows__item__link__triangle"></i></a>
+                                                            </li>
+                                                            <li class="nav-arrows__item">
+                                                                <a class="nav-arrows__item__link" href="#">Шоп-туры<i class="nav-arrows__item__link__triangle"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    </div>
+                                                    <div class="tours-preview__left__bottom">
+                                                        <div class="tours-preview__left__bottom__title">
+                                                            <div class="title">Не знаете на чем остановиться</div>
+                                                        </div>
+                                                        <div class="tours-preview__left__bottom__body">
+                                                            <div class="tours-preview__left__bottom__body__text">Воспользуйтесь сервисом подбора Вашего путишествия</div>
+                                                            <div class="tours-preview__left__bottom__body__button">
+                                                                <a class="button button_big button_green" href="#">Подобрать тур</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div><!--
+                                             --><div class="tours-preview__right">
+                                                    <div class="tours-preview__right__top">
+                                                        <div class="tours-preview__right__top__title">
+                                                            <div class="title">Отличный отдых</div>
+                                                        </div>
+                                                        <div class="tours-preview__right__top__body">
+                                                            <div class="tours-preview__right__top__body__item">
+                                                                <div class="program">
+                                                                    <div class="program__image">
+                                                                        <img src="content/program_image.png">
+                                                                    </div>
+                                                                    <div class="program__title">
+                                                                        <div class="program__title__text">
+                                                                            <div class="program__title__text__inner">Дайвинг-туры в лучшие места планеты! ыдвоадыв ываыво ываоыдо</div>
+                                                                        </div>
+                                                                        <div class="program__title__button">
+                                                                            <div class="button button_blue">Подробнее</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tours-preview__right__top__body__item">
+                                                                <div class="program">
+                                                                    <div class="program__image">
+                                                                        <img src="content/program_image2.png">
+                                                                    </div>
+                                                                    <div class="program__title program__title_gray">
+                                                                        <div class="program__title__text">
+                                                                            <div class="program__title__text__inner">Морские круизы - отдых на яхте</div>
+                                                                        </div>
+                                                                        <div class="program__title__button">
+                                                                            <div class="button button_gray">Подробнее</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li><!--
+                             --><li class="nav__item">
+                                    <a class="nav__item__link" href="#">Подобрать тур</a>
+                                </li><!--
+                             --><li class="nav__item">
+                                    <a class="nav__item__link" href="#">Отзывы</a>
+                                </li><!--
+                             --><li class="nav__item nav__item_dropable">
+                                    <a class="nav__item__link" href="#">Услуги<i class="nav__item__link__triangle"></i></a>
+                                    <div class="nav__item__dropdown">
+                                        <div class="nav__item__dropdown__body nav__item__dropdown__body_service">
+                                            <ul class="nav-arrows">
+                                                <li class="nav-arrows__item">
+                                                    <a class="nav-arrows__item__link" href="#">Загранпаспорта<i class="nav-arrows__item__link__triangle"></i></a>
+                                                </li>
+                                                <li class="nav-arrows__item">
+                                                    <a class="nav-arrows__item__link" href="#">Визы<i class="nav-arrows__item__link__triangle"></i></a>
+                                                </li>
+                                                <li class="nav-arrows__item">
+                                                    <a class="nav-arrows__item__link" href="#">Трансферы в аэропорты<i class="nav-arrows__item__link__triangle"></i></a>
+                                                </li>
+                                                <li class="nav-arrows__item">
+                                                    <a class="nav-arrows__item__link" href="#">Горнолыжные туры<i class="nav-arrows__item__link__triangle"></i></a>
+                                                </li>
+                                                <li class="nav-arrows__item">
+                                                    <a class="nav-arrows__item__link" href="#">Авиабилеты<i class="nav-arrows__item__link__triangle"></i></a>
+                                                </li>
+                                                <li class="nav-arrows__item">
+                                                    <a class="nav-arrows__item__link" href="#">Прием в Ярославле<i class="nav-arrows__item__link__triangle"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__item__link" href="#">Контакты</a>
+                                </li>
+                            </ul>
                         </div>
 
                         <div class="panel__search">
-                            TODO .search
+                            <div class="search">
+                                <input class="search__input" type="search" placeholder="Введите слово...">
+                                <button class="search__submit">
+                                    <div class="search__submit__icon">
+                                        <i class="icon icon_search"></i>
+                                    </div>
+                                </button>
+                            </div>
                         </div>
                     </div>
+
 
                 </div>
             </nav><!-- page__panel -->
@@ -393,15 +536,73 @@
                                             </div>
                                         </div><!--
                                      --><div class="index__top__right">
-                                            <div class="offer">
-                                                <div class="offer__image">
-                                                    <img src="content/offer_image.png">
-                                                </div>
-                                                <div class="offer__text">
-                                                    <div class="offer__text__title">Лето 2014!<br>Старт Продаж!</div>
-                                                    <div class="offer__text__description">Турция, Испания, Греция, Италия, Тунис скидка до 40 %</div>
-                                                </div>
-                                            </div>
+                                            <ul class="offers-list">
+                                                <li class="offers-list__item">
+                                                    <div class="offers-list__item__inner">
+                                                        <a class="offer" href="#">
+                                                            <div class="offer__image">
+                                                                <img src="content/offer_image.png">
+                                                            </div>
+                                                            <div class="offer__text">
+                                                                <div class="offer__text__title">Лето 2014!<br>Старт Продаж!</div>
+                                                                <div class="offer__text__description">Турция, Испания, Греция, Италия, Тунис скидка до 40 %</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="offers-list__item">
+                                                    <div class="offers-list__item__inner">
+                                                        <a class="offer" href="#">
+                                                            <div class="offer__image">
+                                                                <img src="content/offer_image2.png">
+                                                            </div>
+                                                            <div class="offer__text">
+                                                                <div class="offer__text__title">Лето 2014!<br>Старт Продаж!</div>
+                                                                <div class="offer__text__description">Турция, Испания, Греция, Италия, Тунис скидка до 40 %</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="offers-list__item">
+                                                    <div class="offers-list__item__inner">
+                                                        <a class="offer" href="#">
+                                                            <div class="offer__image">
+                                                                <img src="content/offer_image3.png">
+                                                            </div>
+                                                            <div class="offer__text">
+                                                                <div class="offer__text__title">Лето 2014!<br>Старт Продаж!</div>
+                                                                <div class="offer__text__description">Турция, Испания, Греция, Италия, Тунис скидка до 40 %</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="offers-list__item">
+                                                    <div class="offers-list__item__inner">
+                                                        <a class="offer" href="#">
+                                                            <div class="offer__image">
+                                                                <img src="content/offer_image4.png">
+                                                            </div>
+                                                            <div class="offer__text">
+                                                                <div class="offer__text__title">Лето 2014!<br>Старт Продаж!</div>
+                                                                <div class="offer__text__description">Турция, Испания, Греция, Италия, Тунис скидка до 40 %</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="offers-list__item">
+                                                    <div class="offers-list__item__inner">
+                                                        <a class="offer" href="#">
+                                                            <div class="offer__image">
+                                                                <img src="content/offer_image5.png">
+                                                            </div>
+                                                            <div class="offer__text">
+                                                                <div class="offer__text__title">Лето 2014!<br>Старт Продаж!</div>
+                                                                <div class="offer__text__description">Турция, Испания, Греция, Италия, Тунис скидка до 40 %</div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
                                         <div class="index__top__wave">
                                             <i class="icon icon_lightwave"></i>
@@ -575,28 +776,78 @@
                                         <div class="body__footer__content__column__title">
                                             <div class="title">
                                                 <div class="title__text">Отзывы о путешествиях</div><!--
-                                             --><div class="title__link">
-                                                    <a class="link" href="#">Все отзывы</a>
-                                                </div>
+                                         --><div class="title__link">
+                                                <a class="link" href="#">Все отзывы</a>
+                                            </div>
                                             </div>
                                         </div>
                                         <div class="body__footer__content__column__block">
-                                            <div class="feedback-preview">
-                                                <div class="feedback-preview__image">
-                                                    <img class="feedback-preview__image__file" src="content/feedback-preview_image.png">
-                                                </div><!--
-                                             --><div class="feedback-preview__description">
-                                                    <div class="feedback-preview__description__title">Адреналин и драйв!</div>
-                                                    <div class="feedback-preview__description__text">«Это то, за что я люблю жизнь! Такие эмоции может подарить только океан! Океан свободы и драйва...»</div>
-                                                    <div class="feedback-preview__description__footer">
-                                                        <div class="feedback-preview__description__footer__name">Лебедев Денис,</div>
-                                                        <div class="feedback-preview__description__footer__date">10.10.2013 г.</div>
-                                                    </div>
-                                                    <div class="feedback-preview__description__link">
-                                                        <a class="link">Круиз по Тихому океану</a>
-                                                    </div>
+
+                                            <div class="feedback-widget">
+
+                                                <div class="feedback-widget__carousel">
+                                                    <ul class="feedback-widget__carousel__list">
+                                                        <li class="feedback-widget__carousel__list__item">
+                                                            <div class="feedback-preview">
+                                                                <div class="feedback-preview__image">
+                                                                    <img class="feedback-preview__image__file" src="content/feedback-preview_image.png">
+                                                                </div><!--
+                                                         --><div class="feedback-preview__description">
+                                                                <div class="feedback-preview__description__title">Адреналин и драйв!</div>
+                                                                <div class="feedback-preview__description__text">«Это то, за что я люблю жизнь! Такие эмоции может подарить только океан! Океан свободы и драйва...»</div>
+                                                                <div class="feedback-preview__description__footer">
+                                                                    <div class="feedback-preview__description__footer__name">Лебедев Денис,</div>
+                                                                    <div class="feedback-preview__description__footer__date">10.10.2013 г.</div>
+                                                                </div>
+                                                                <div class="feedback-preview__description__link">
+                                                                    <a class="link">Круиз по Тихому океану</a>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="feedback-widget__carousel__list__item">
+                                                            <div class="feedback-preview">
+                                                                <div class="feedback-preview__image">
+                                                                    <img class="feedback-preview__image__file" src="content/feedback-preview_image.png">
+                                                                </div><!--
+                                                         --><div class="feedback-preview__description">
+                                                                <div class="feedback-preview__description__title">Адреналин и драйв!</div>
+                                                                <div class="feedback-preview__description__text">«Это то, за что я люблю жизнь! Такие эмоции может подарить только океан! Океан свободы и драйва...»</div>
+                                                                <div class="feedback-preview__description__footer">
+                                                                    <div class="feedback-preview__description__footer__name">Лебедев Денис,</div>
+                                                                    <div class="feedback-preview__description__footer__date">10.10.2013 г.</div>
+                                                                </div>
+                                                                <div class="feedback-preview__description__link">
+                                                                    <a class="link">Круиз по Тихому океану</a>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="feedback-widget__carousel__list__item">
+                                                            <div class="feedback-preview">
+                                                                <div class="feedback-preview__image">
+                                                                    <img class="feedback-preview__image__file" src="content/feedback-preview_image.png">
+                                                                </div><!--
+                                                         --><div class="feedback-preview__description">
+                                                                <div class="feedback-preview__description__title">Адреналин и драйв!</div>
+                                                                <div class="feedback-preview__description__text">«Это то, за что я люблю жизнь! Такие эмоции может подарить только океан! Океан свободы и драйва...»</div>
+                                                                <div class="feedback-preview__description__footer">
+                                                                    <div class="feedback-preview__description__footer__name">Лебедев Денис,</div>
+                                                                    <div class="feedback-preview__description__footer__date">10.10.2013 г.</div>
+                                                                </div>
+                                                                <div class="feedback-preview__description__link">
+                                                                    <a class="link">Круиз по Тихому океану</a>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
                                                 </div>
+
+                                                <div class="feedback-widget__prev"></div>
+                                                <div class="feedback-widget__next"></div>
                                             </div>
+
                                         </div>
                                     </div><!--
                                  --><div class="body__footer__content__column body__footer__content__column_right">
@@ -608,84 +859,84 @@
                                                 <div class="title__text">Фото наших туристов</div><!--
                                              --><div class="title__link">
                                                     <a class="link" href="#">Все фотографии</a>
-                                               </div>
+                                                </div>
                                             </h1>
                                         </div>
                                         <div class="body__footer__content__column__block">
                                             <ul class="gallery gallery_preview">
                                                 <li class="gallery__item">
-                                                    <a class="gallery__item__link" href="content/gallery_foto_full.jpg">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto_full.jpg">
                                                         <img class="gallery__item__link__image" src="content/gallery_foto_thumbnail.jpg">
                                                     </a>
                                                 </li><!--
                                              --><li class="gallery__item">
-                                                    <a class="gallery__item__link" href="content/gallery_foto2_full.jpg">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto2_full.jpg">
                                                         <img class="gallery__item__link__image" src="content/gallery_foto2_thumbnail.jpg">
                                                     </a>
                                                 </li><!--
                                              --><li class="gallery__item">
-                                                    <a class="gallery__item__link" href="content/gallery_foto3_full.jpg">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto3_full.jpg">
                                                         <img class="gallery__item__link__image" src="content/gallery_foto3_thumbnail.jpg">
                                                     </a>
                                                 </li><!--
                                              --><li class="gallery__item">
-                                                    <a class="gallery__item__link" href="content/gallery_foto4_full.jpg">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto4_full.jpg">
                                                         <img class="gallery__item__link__image" src="content/gallery_foto4_thumbnail.jpg">
                                                     </a>
-                                               </li><!--
-                                            --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto_thumbnail.jpg">
-                                                </a>
-                                              </li><!--
-                                           --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto2_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto2_thumbnail.jpg">
-                                                </a>
-                                             </li><!--
-                                          --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto3_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto3_thumbnail.jpg">
-                                                </a>
-                                            </li><!--
-                                         --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto4_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto4_thumbnail.jpg">
-                                                </a>
-                                            </li><!--
-                                         --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto2_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto2_thumbnail.jpg">
-                                                </a>
-                                            </li><!--
-                                         --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto3_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto3_thumbnail.jpg">
-                                                </a>
-                                            </li><!--
-                                         --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto4_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto4_thumbnail.jpg">
-                                                </a>
-                                            </li><!--
-                                         --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto2_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto2_thumbnail.jpg">
-                                                </a>
-                                            </li><!--
-                                         --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto3_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto3_thumbnail.jpg">
-                                                </a>
-                                            </li><!--
-                                         --><li class="gallery__item">
-                                                <a class="gallery__item__link" href="content/gallery_foto4_full.jpg">
-                                                    <img class="gallery__item__link__image" src="content/gallery_foto4_thumbnail.jpg">
-                                                </a>
-                                            </li>
-                                        </ul>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto2_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto2_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto3_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto3_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto4_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto4_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto2_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto2_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto3_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto3_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto4_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto4_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto2_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto2_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto3_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto3_thumbnail.jpg">
+                                                    </a>
+                                                </li><!--
+                                             --><li class="gallery__item">
+                                                    <a class="gallery__item__link" data-fancybox-group="secondary-group" href="content/gallery_foto4_full.jpg">
+                                                        <img class="gallery__item__link__image" src="content/gallery_foto4_thumbnail.jpg">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                </div>
                                 </div>
                             </div>
 

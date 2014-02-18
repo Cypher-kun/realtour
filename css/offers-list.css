@@ -1,0 +1,26 @@
+.offers-list {
+
+}
+    .offers-list__item {
+        float: right;
+        cursor: default;
+        margin: 0 -45px 0 0;
+    }
+        .offers-list__item__inner {
+            position: relative;
+            left: 0;
+            -webkit-transition: left .3s ease;
+                    transition: left .3s ease;
+        }
+
+    .offers-list__item:hover .offers-list__item__inner {
+        left: 50px;
+    }
+
+    .offers-list__item:last-child:hover .offers-list__item__inner {
+        left: 0;
+    }
+
+    .offers-list__item:first-child {
+        margin-right: 0;
+    }
