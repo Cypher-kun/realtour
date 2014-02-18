@@ -39,7 +39,7 @@
 @import url(error-output.css);
 @import url(form.css);
 @import url(title.css);
-/*@import url(table.css);*/
+@import url(table.css);
 /*@import url(video.css);*/
 /*@import url(col.css);*/
 /*@import url(row.css);*/
@@ -61,5 +61,6 @@
 @import url(region.css);
 @import url(page.css);
 @import url(fancybox.css);
+@import url(jcarousel.css);
 
 @import url(_print.css);

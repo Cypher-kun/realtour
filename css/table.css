@@ -1,20 +1,16 @@
 .table {
-    background: #eee;
-/*
-    border-collapse: separate; // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
-    border-spacing: 1px;       // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
-*/
+    margin: 1em 0 0;
 }
 
     .table__head {
-        background: #d5e1ee;
+        background: #eae6d5;
     }
         .table__head__row {
 
         }
             .table__head__row__cell {
-                padding: 5px 10px 3px;
-                border: 1px solid #fff;
+                padding: 10px;
+                border: 1px solid #d3d3d3;
                 text-align: center;
             }
 
@@ -29,10 +25,15 @@
 
             }
                 .table__body__row__cell {
-                    padding: 5px 10px 3px;
-                    border: 1px solid #fff;
+                    padding: 10px;
+                    border: 1px solid #d3d3d3;
                 }
 
-            .table__body__row:nth-child(odd) {
-                background: #f4f4f4;
+            .table__body__row:nth-child(even) {
+                background: #fbf9f6;
             }
+
+td:first-child { border-left: none; }
+td:last-child { border-right: none; }
+.table__body tr:last-child td { border-bottom: none; }
+.table__head tr:first-child td { border-top: none; }

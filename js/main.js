@@ -20,3 +20,15 @@ $(document).on('ready', function(){
 $(document).on('ready', function(){
     $('.gallery__item__link').fancybox();
 });
+
+
+$(document).on('ready', function(){
+    (function($) {
+        $(function() {
+            $('.feedback-widget__carousel').jcarousel({'wrap':'circular'});
+            $('.feedback-widget__prev').jcarouselControl({ target: '-=1' });
+            $('.feedback-widget__next').jcarouselControl({ target: '+=1' });
+        });
+    })(jQuery);
+
+});

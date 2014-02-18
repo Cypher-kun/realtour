@@ -1,0 +1,51 @@
+.feedback-widget {
+    position: relative;
+    padding: 0 39px;
+}
+
+    .feedback-widget__carousel {
+        position: relative;
+        overflow: hidden;
+        width: 358px;
+    }
+
+        .feedback-widget__carousel__list {
+            width: 20000em;
+            position: relative;
+        }
+
+            .feedback-widget__carousel__list__item {
+                float: left;
+                width: 358px;
+            }
+
+
+    .feedback-widget__prev {
+        width: 23px;
+        height: 101px;
+        background: url(../images/carousel.png) no-repeat 0 0;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin: -50px 0 0;
+    }
+
+    .feedback-widget__prev:hover {
+        background-position: -23px 0;
+    }
+
+    .feedback-widget__next {
+        width: 23px;
+        height: 101px;
+        background: url(../images/carousel.png) no-repeat -46px 0;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin: -50px 0 0;
+    }
+
+    .feedback-widget__next:hover {
+        background-position: -69px 0;
+    }
